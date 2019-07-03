@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/client.dir/src/connection.cc.o CMakeFiles/client.dir/src/dealjson.cpp.o CMakeFiles/client.dir/src/helpers.cc.o CMakeFiles/client.dir/src/main.cpp.o CMakeFiles/client.dir/src/restclient.cc.o  -o ../../bin/client  -L/root/CLionProjects/httpclient/3rdparty/lib -Wl,-rpath,/root/CLionProjects/httpclient/3rdparty/lib -lcurl -ljsoncpp 

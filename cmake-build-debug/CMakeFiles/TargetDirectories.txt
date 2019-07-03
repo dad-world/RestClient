@@ -1,0 +1,5 @@
+/root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles/edit_cache.dir
+/root/CLionProjects/httpclient/cmake-build-debug/client/CMakeFiles/rebuild_cache.dir
+/root/CLionProjects/httpclient/cmake-build-debug/client/CMakeFiles/client.dir
+/root/CLionProjects/httpclient/cmake-build-debug/client/CMakeFiles/edit_cache.dir
