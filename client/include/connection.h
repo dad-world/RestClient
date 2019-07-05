@@ -183,7 +183,8 @@ class Connection {
     void AppendHeader(const std::string& key,
                       const std::string& value);
 
-
+    std::string get_token(const std::string& uri,
+                          const std::string& data);
     // Basic HTTP verb methods
     RestClient::Response get(const std::string& uri);
     RestClient::Response post(const std::string& uri,
@@ -218,6 +219,7 @@ class Connection {
     std::string uriProxy;
     std::string unixSocketPath;
     RestClient::Response performCurlRequest(const std::string& uri);
+    std::string performCurlRequestGetToken(const std::string& uri);
 };
 };  // namespace RestClient
 

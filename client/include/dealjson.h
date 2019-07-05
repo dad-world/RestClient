@@ -12,6 +12,6 @@
 class DealJson{
     public:
         int deal_test(std::string jsonContent);
-        int get_token(std::string jsonContent);
+        std::string get_token(std::string jsonContent);
 };
 #endif //HTTPCLIENT_DEALJSON_H

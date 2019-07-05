@@ -23,6 +23,21 @@
 #include "version.h"
 #include "connection.h"
 
+
+/**
+ * 获取图鸭压缩设备的token值
+ *
+ * */
+
+std::string RestClient::get_token(const std::string &url, const std::string &data) {
+    std::string  ret;
+    RestClient::Connection *conn = new RestClient::Connection("");
+    conn->AppendHeader("Content-Type", "application/json");
+    ret = conn->get_token(url, data);
+    return ret;
+};
+
+
 /**
  * @brief global init function. Call this before you start any threads.
  */

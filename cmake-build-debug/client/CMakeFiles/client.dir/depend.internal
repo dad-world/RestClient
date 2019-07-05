@@ -46,4 +46,7 @@ client/CMakeFiles/client.dir/src/main.cpp.o
  ../client/include/version.h
  /root/CLionProjects/httpclient/client/src/main.cpp
 client/CMakeFiles/client.dir/src/restclient.cc.o
+ ../client/include/connection.h
+ ../client/include/restclient.h
+ ../client/include/version.h
  /root/CLionProjects/httpclient/client/src/restclient.cc

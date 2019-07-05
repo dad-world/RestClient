@@ -65,6 +65,9 @@ Response post(const std::string &url,
               const std::string &ctype,
               const std::string &ctypeapykry,
               const std::string &data);
+//获取图鸭压缩设备的token值
+std::string get_token(const std::string& url,
+                      const std::string& data);
 
 }  // namespace RestClient
 

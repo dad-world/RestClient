@@ -45,5 +45,8 @@ client/CMakeFiles/client.dir/src/main.cpp.o: ../client/include/restclient.h
 client/CMakeFiles/client.dir/src/main.cpp.o: ../client/include/version.h
 client/CMakeFiles/client.dir/src/main.cpp.o: ../client/src/main.cpp
 
+client/CMakeFiles/client.dir/src/restclient.cc.o: ../client/include/connection.h
+client/CMakeFiles/client.dir/src/restclient.cc.o: ../client/include/restclient.h
+client/CMakeFiles/client.dir/src/restclient.cc.o: ../client/include/version.h
 client/CMakeFiles/client.dir/src/restclient.cc.o: ../client/src/restclient.cc
 
