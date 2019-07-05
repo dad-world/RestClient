@@ -61,7 +61,6 @@ Response patch(const std::string& url,
 Response del(const std::string& url);
 Response head(const std::string& url);
 Response options(const std::string& url);
-
 Response post(const std::string &url,
               const std::string &ctype,
               const std::string &ctypeapykry,

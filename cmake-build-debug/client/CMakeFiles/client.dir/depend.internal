@@ -33,6 +33,15 @@ client/CMakeFiles/client.dir/src/dealjson.cpp.o
 client/CMakeFiles/client.dir/src/helpers.cc.o
  /root/CLionProjects/httpclient/client/src/helpers.cc
 client/CMakeFiles/client.dir/src/main.cpp.o
+ ../3rdparty/include/json/allocator.h
+ ../3rdparty/include/json/autolink.h
+ ../3rdparty/include/json/config.h
+ ../3rdparty/include/json/features.h
+ ../3rdparty/include/json/forwards.h
+ ../3rdparty/include/json/json.h
+ ../3rdparty/include/json/reader.h
+ ../3rdparty/include/json/value.h
+ ../3rdparty/include/json/writer.h
  ../client/include/restclient.h
  ../client/include/version.h
  /root/CLionProjects/httpclient/client/src/main.cpp

@@ -32,6 +32,15 @@ client/CMakeFiles/client.dir/src/dealjson.cpp.o: ../client/src/dealjson.cpp
 
 client/CMakeFiles/client.dir/src/helpers.cc.o: ../client/src/helpers.cc
 
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/allocator.h
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/autolink.h
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/config.h
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/features.h
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/forwards.h
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/json.h
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/reader.h
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/value.h
+client/CMakeFiles/client.dir/src/main.cpp.o: ../3rdparty/include/json/writer.h
 client/CMakeFiles/client.dir/src/main.cpp.o: ../client/include/restclient.h
 client/CMakeFiles/client.dir/src/main.cpp.o: ../client/include/version.h
 client/CMakeFiles/client.dir/src/main.cpp.o: ../client/src/main.cpp
