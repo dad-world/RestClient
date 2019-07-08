@@ -1,0 +1,32 @@
+POST http://localhost:18080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:18080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-07-08T073957.200.txt
+
+###
+
+POST http://localhost:18080/api/heloo
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:10050/api/fun1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/api/fun1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
