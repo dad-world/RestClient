@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-client/CMakeFiles/client.dir/rule:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/client.dir/rule
-.PHONY : client/CMakeFiles/client.dir/rule
+client/CMakeFiles/httpclient.dir/rule:
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/httpclient.dir/rule
+.PHONY : client/CMakeFiles/httpclient.dir/rule
 
 # Convenience name for target.
-client: client/CMakeFiles/client.dir/rule
+httpclient: client/CMakeFiles/httpclient.dir/rule
 
-.PHONY : client
+.PHONY : httpclient
 
 # fast build rule for target.
-client/fast:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/build
-.PHONY : client/fast
+httpclient/fast:
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/build
+.PHONY : httpclient/fast
 
 src/connection.o: src/connection.cc.o
 
@@ -131,7 +131,7 @@ src/connection.o: src/connection.cc.o
 
 # target to build an object file
 src/connection.cc.o:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/connection.cc.o
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/connection.cc.o
 .PHONY : src/connection.cc.o
 
 src/connection.i: src/connection.cc.i
@@ -140,7 +140,7 @@ src/connection.i: src/connection.cc.i
 
 # target to preprocess a source file
 src/connection.cc.i:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/connection.cc.i
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/connection.cc.i
 .PHONY : src/connection.cc.i
 
 src/connection.s: src/connection.cc.s
@@ -149,7 +149,7 @@ src/connection.s: src/connection.cc.s
 
 # target to generate assembly for a file
 src/connection.cc.s:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/connection.cc.s
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/connection.cc.s
 .PHONY : src/connection.cc.s
 
 src/dealjson.o: src/dealjson.cpp.o
@@ -158,7 +158,7 @@ src/dealjson.o: src/dealjson.cpp.o
 
 # target to build an object file
 src/dealjson.cpp.o:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/dealjson.cpp.o
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/dealjson.cpp.o
 .PHONY : src/dealjson.cpp.o
 
 src/dealjson.i: src/dealjson.cpp.i
@@ -167,7 +167,7 @@ src/dealjson.i: src/dealjson.cpp.i
 
 # target to preprocess a source file
 src/dealjson.cpp.i:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/dealjson.cpp.i
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/dealjson.cpp.i
 .PHONY : src/dealjson.cpp.i
 
 src/dealjson.s: src/dealjson.cpp.s
@@ -176,7 +176,7 @@ src/dealjson.s: src/dealjson.cpp.s
 
 # target to generate assembly for a file
 src/dealjson.cpp.s:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/dealjson.cpp.s
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/dealjson.cpp.s
 .PHONY : src/dealjson.cpp.s
 
 src/helpers.o: src/helpers.cc.o
@@ -185,7 +185,7 @@ src/helpers.o: src/helpers.cc.o
 
 # target to build an object file
 src/helpers.cc.o:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/helpers.cc.o
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/helpers.cc.o
 .PHONY : src/helpers.cc.o
 
 src/helpers.i: src/helpers.cc.i
@@ -194,7 +194,7 @@ src/helpers.i: src/helpers.cc.i
 
 # target to preprocess a source file
 src/helpers.cc.i:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/helpers.cc.i
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/helpers.cc.i
 .PHONY : src/helpers.cc.i
 
 src/helpers.s: src/helpers.cc.s
@@ -203,7 +203,7 @@ src/helpers.s: src/helpers.cc.s
 
 # target to generate assembly for a file
 src/helpers.cc.s:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/helpers.cc.s
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/helpers.cc.s
 .PHONY : src/helpers.cc.s
 
 src/main.o: src/main.cpp.o
@@ -212,7 +212,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/main.cpp.o
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -221,7 +221,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/main.cpp.i
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -230,7 +230,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/main.cpp.s
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/restclient.o: src/restclient.cc.o
@@ -239,7 +239,7 @@ src/restclient.o: src/restclient.cc.o
 
 # target to build an object file
 src/restclient.cc.o:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/restclient.cc.o
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/restclient.cc.o
 .PHONY : src/restclient.cc.o
 
 src/restclient.i: src/restclient.cc.i
@@ -248,7 +248,7 @@ src/restclient.i: src/restclient.cc.i
 
 # target to preprocess a source file
 src/restclient.cc.i:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/restclient.cc.i
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/restclient.cc.i
 .PHONY : src/restclient.cc.i
 
 src/restclient.s: src/restclient.cc.s
@@ -257,7 +257,7 @@ src/restclient.s: src/restclient.cc.s
 
 # target to generate assembly for a file
 src/restclient.cc.s:
-	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/restclient.cc.s
+	cd /root/CLionProjects/httpclient/cmake-build-debug && $(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/src/restclient.cc.s
 .PHONY : src/restclient.cc.s
 
 # Help Target
@@ -267,7 +267,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... client"
+	@echo "... httpclient"
 	@echo "... edit_cache"
 	@echo "... src/connection.o"
 	@echo "... src/connection.i"

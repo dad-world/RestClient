@@ -19,7 +19,7 @@ int main (int argc, char **argv)
     //添加测试用header头,添加请求头的内容为appkey
    // RestClient::Response r = RestClient::post("http://192.168.5.13:23412/login", "application/json",getLogin);
     std::string tuYaToken = RestClient::get_token("http://192.168.5.13:23412/login",getLogin);
-    std::cout<< "tuyade" <<tuYaToken <<std::endl;
+    std::cout<< "图鸭设备token" <<tuYaToken <<std::endl;
     /*std::cout<<r.code<<std::endl;
     std::cout<<r.body<<std::endl;
     std::map<std::string,std::string>::iterator it = r.headers.begin();
@@ -28,7 +28,7 @@ int main (int argc, char **argv)
         it++;
     }*/
 
-
+    return 0;
 }
 
 

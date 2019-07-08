@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
+  "../server/CMakeLists.txt"
   "/usr/local/src/clion/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCInformation.cmake"
   "/usr/local/src/clion/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXInformation.cmake"
   "/usr/local/src/clion/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake"
@@ -44,9 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "client/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "server/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "client/CMakeFiles/client.dir/DependInfo.cmake"
+  "client/CMakeFiles/httpclient.dir/DependInfo.cmake"
+  "server/CMakeFiles/httpserver.dir/DependInfo.cmake"
   )

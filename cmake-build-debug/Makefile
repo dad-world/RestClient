@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named client
+# Target rules for targets named httpclient
 
 # Build rule for target.
-client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 client
-.PHONY : client
+httpclient: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 httpclient
+.PHONY : httpclient
 
 # fast build rule for target.
-client/fast:
-	$(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/build
-.PHONY : client/fast
+httpclient/fast:
+	$(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/build
+.PHONY : httpclient/fast
+
+#=============================================================================
+# Target rules for targets named httpserver
+
+# Build rule for target.
+httpserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 httpserver
+.PHONY : httpserver
+
+# fast build rule for target.
+httpserver/fast:
+	$(MAKE) -f server/CMakeFiles/httpserver.dir/build.make server/CMakeFiles/httpserver.dir/build
+.PHONY : httpserver/fast
 
 # Help Target
 help:
@@ -131,7 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... client"
+	@echo "... httpclient"
+	@echo "... httpserver"
 .PHONY : help
 
 

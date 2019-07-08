@@ -68,12 +68,12 @@ CMAKE_BINARY_DIR = /root/CLionProjects/httpclient/cmake-build-debug
 # Directory level rules for directory client
 
 # Convenience name for "all" pass in the directory.
-client/all: client/CMakeFiles/client.dir/all
+client/all: client/CMakeFiles/httpclient.dir/all
 
 .PHONY : client/all
 
 # Convenience name for "clean" pass in the directory.
-client/clean: client/CMakeFiles/client.dir/clean
+client/clean: client/CMakeFiles/httpclient.dir/clean
 
 .PHONY : client/clean
 
@@ -83,39 +83,94 @@ client/preinstall:
 .PHONY : client/preinstall
 
 #=============================================================================
-# Target rules for target client/CMakeFiles/client.dir
+# Target rules for target client/CMakeFiles/httpclient.dir
 
 # All Build rule for target.
-client/CMakeFiles/client.dir/all:
-	$(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/depend
-	$(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target client"
-.PHONY : client/CMakeFiles/client.dir/all
+client/CMakeFiles/httpclient.dir/all:
+	$(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/depend
+	$(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target httpclient"
+.PHONY : client/CMakeFiles/httpclient.dir/all
 
 # Include target in all.
-all: client/CMakeFiles/client.dir/all
+all: client/CMakeFiles/httpclient.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-client/CMakeFiles/client.dir/rule: cmake_check_build_system
+client/CMakeFiles/httpclient.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/client.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/httpclient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles 0
-.PHONY : client/CMakeFiles/client.dir/rule
+.PHONY : client/CMakeFiles/httpclient.dir/rule
 
 # Convenience name for target.
-client: client/CMakeFiles/client.dir/rule
+httpclient: client/CMakeFiles/httpclient.dir/rule
 
-.PHONY : client
-
-# clean rule for target.
-client/CMakeFiles/client.dir/clean:
-	$(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/clean
-.PHONY : client/CMakeFiles/client.dir/clean
+.PHONY : httpclient
 
 # clean rule for target.
-clean: client/CMakeFiles/client.dir/clean
+client/CMakeFiles/httpclient.dir/clean:
+	$(MAKE) -f client/CMakeFiles/httpclient.dir/build.make client/CMakeFiles/httpclient.dir/clean
+.PHONY : client/CMakeFiles/httpclient.dir/clean
+
+# clean rule for target.
+clean: client/CMakeFiles/httpclient.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory server
+
+# Convenience name for "all" pass in the directory.
+server/all: server/CMakeFiles/httpserver.dir/all
+
+.PHONY : server/all
+
+# Convenience name for "clean" pass in the directory.
+server/clean: server/CMakeFiles/httpserver.dir/clean
+
+.PHONY : server/clean
+
+# Convenience name for "preinstall" pass in the directory.
+server/preinstall:
+
+.PHONY : server/preinstall
+
+#=============================================================================
+# Target rules for target server/CMakeFiles/httpserver.dir
+
+# All Build rule for target.
+server/CMakeFiles/httpserver.dir/all:
+	$(MAKE) -f server/CMakeFiles/httpserver.dir/build.make server/CMakeFiles/httpserver.dir/depend
+	$(MAKE) -f server/CMakeFiles/httpserver.dir/build.make server/CMakeFiles/httpserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10 "Built target httpserver"
+.PHONY : server/CMakeFiles/httpserver.dir/all
+
+# Include target in all.
+all: server/CMakeFiles/httpserver.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+server/CMakeFiles/httpserver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 server/CMakeFiles/httpserver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/httpclient/cmake-build-debug/CMakeFiles 0
+.PHONY : server/CMakeFiles/httpserver.dir/rule
+
+# Convenience name for target.
+httpserver: server/CMakeFiles/httpserver.dir/rule
+
+.PHONY : httpserver
+
+# clean rule for target.
+server/CMakeFiles/httpserver.dir/clean:
+	$(MAKE) -f server/CMakeFiles/httpserver.dir/build.make server/CMakeFiles/httpserver.dir/clean
+.PHONY : server/CMakeFiles/httpserver.dir/clean
+
+# clean rule for target.
+clean: server/CMakeFiles/httpserver.dir/clean
 
 .PHONY : clean
 

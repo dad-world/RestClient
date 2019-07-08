@@ -1,17 +1,17 @@
 #cmake最低版本
 CMAKE_MINIMUM_REQUIRED(VERSION 3.12)
 #项目名称
-PROJECT(client)
+PROJECT(server)
 
 SET(EXECUTABLE_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/bin")
 #使能c++11
 SET(CMAKE_CXX_STANDARD 11)
 
 # 设置编译目标名称
-SET(LINK_TARGETNAME httpclient)
+SET(LINK_TARGETNAME httpserver)
 
 # 设置链接库名称
-SET(LINK_LIB_LIST curl jsoncpp)
+SET(LINK_LIB_LIST  )
 # 设置链接库目录
 LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/3rdparty/lib)
 

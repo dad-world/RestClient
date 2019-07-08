@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\client\;CMake Files\server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/CLionProjects/httpclient/cmake-build-debug/server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpserver">
+				<Option output="/root/CLionProjects/httpclient/bin/httpserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/CLionProjects/httpclient/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/CLionProjects/httpclient/3rdparty/include"/>
+					<Add directory="/root/CLionProjects/httpclient/server/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 httpserver"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpserver/fast">
+				<Option output="/root/CLionProjects/httpclient/bin/httpserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/CLionProjects/httpclient/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/CLionProjects/httpclient/3rdparty/include"/>
+					<Add directory="/root/CLionProjects/httpclient/server/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 httpserver/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/CLionProjects/httpclient/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/CLionProjects/httpclient/server/src/http_server.cpp">
+			<Option target="httpserver"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/httpclient/server/src/main.cpp">
+			<Option target="httpserver"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/httpclient/server/src/mongoose.c">
+			<Option target="httpserver"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/httpclient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/httpclient/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/httpclient/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

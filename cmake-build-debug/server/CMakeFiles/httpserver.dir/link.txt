@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/httpserver.dir/src/http_server.cpp.o CMakeFiles/httpserver.dir/src/main.cpp.o CMakeFiles/httpserver.dir/src/mongoose.c.o  -o ../../bin/httpserver  -L/root/CLionProjects/httpclient/3rdparty/lib 
