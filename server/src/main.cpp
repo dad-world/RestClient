@@ -40,8 +40,8 @@ int main(int argc, char *argv[])
 	auto http_server = std::shared_ptr<HttpServer>(new HttpServer);
 	http_server->Init(port);
 	// add handler
-	http_server->AddHandler("/api/fun1", handle_fun1);
-	http_server->AddHandler("/api/fun2", handle_fun2);
+	//http_server->AddHandler("/api/fun1", handle_fun1);
+	//http_server->AddHandler("/api/fun2", handle_fun2);
 	http_server->Start();
 	
 

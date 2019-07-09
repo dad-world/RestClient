@@ -1,6 +1,7 @@
 #include <utility>
 #include "http_server.h"
-
+#include "dealjson.h"
+#include "json/json.h"
 void HttpServer::Init(const std::string &port)
 {
 	m_port = port;
@@ -83,7 +84,7 @@ void HttpServer::SendHttpRsp(mg_connection *connection, std::string rsp)
 	// �����ȷ���header, ��ʱ��������HTTP/2.0
 	mg_printf(connection, "%s", "HTTP/1.1 200 OK\r\nTransfer-Encoding: chunked\r\n\r\n");
 	// ��json��ʽ����
-	mg_printf_http_chunk(connection, "{ \"result\": %s }", rsp.c_str());
+	mg_printf_http_chunk(connection,rsp.c_str());
 	// ���Ϳհ��ַ��죬������ǰ��Ӧ
 	mg_send_http_chunk(connection, "", 0);
 
@@ -124,8 +125,11 @@ void HttpServer::HandleHttpEvent(mg_connection *connection, http_message *http_r
 		mg_serve_http(connection, http_req, s_server_option);
 	else if (route_check(http_req, "/api/hello")) 
 	{
-		// ֱ�ӻش�
-		SendHttpRsp(connection, "welcome to httpserver");
+		//对请求作储处理
+		DealServerJson dealserverjson;
+		std::string backbody = dealserverjson.deal_hello(body);
+		//拼接json格式字符串,响应头
+		SendHttpRsp(connection, backbody);
 	}
 	else if (route_check(http_req, "/api/sum"))
 	{

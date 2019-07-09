@@ -11,7 +11,7 @@ SET(CMAKE_CXX_STANDARD 11)
 SET(LINK_TARGETNAME httpserver)
 
 # 设置链接库名称
-SET(LINK_LIB_LIST  )
+SET(LINK_LIB_LIST jsoncpp)
 # 设置链接库目录
 LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/3rdparty/lib)
 
